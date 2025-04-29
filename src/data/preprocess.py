@@ -4,8 +4,8 @@ preprocess.py
 Reads raw MRI images (grayscale), resizes them to 224×224, converts to RGB by duplicating the channel,
 and saves processed images to data/processed/{yes,no}.
 '''
-import os
-import cv2
+import os # read / write data
+import cv2 # functions for image processing
 
 # define paths relative to script
 RAW_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/raw"))
