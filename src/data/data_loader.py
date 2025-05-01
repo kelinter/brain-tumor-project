@@ -91,7 +91,7 @@ def prepare_datasets():
         seed=SEED,
         image_size=IMAGE_SIZE,
         batch_size=BATCH_SIZE,
-        shuffle=False,
+        shuffle=True,
     )
     
     # b) Apply augmentation and normalization to training dataset
