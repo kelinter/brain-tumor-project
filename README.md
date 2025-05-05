@@ -1,1 +1,8 @@
 # Brain Tumor Classification Project
+
+This report documents the work completed for ECEG 478 (Spring 2025) on developing an AI-based system for brain tumor detection from MRI scans. This project's main objective is to design and evaluate an artificial intelligence (AI) system that can use medical imaging to identify brain tumors. To be more specific, this study uses neural network-based categorization algorithms to construct a controlled machine learning approach. The objective is to accurately classify input brain scan images into two distinct categories: images indicating the presence of a tumor and images without any tumor present.
+
+The system delivers a binary classification output that indicates whether a tumor is detected after receiving medical imaging data in the form of MRI images as input. The neural network architecture used in this project has been chosen and refined to improve the accuracy and dependability of detection. This pipeline takes in MRI slices, preprocesses and augments them, and then feeds them into a transfer‐learning model (MobileNetV2 backbone with a lightweight classification head). The network outputs a single probability value, which is thresholded to produce the final “yes/no” diagnosis.
+
+If my project were turned into a commercialized product, this AI-based brain tumor detection system could significantly benefit healthcare providers and patients by assisting in early and accurate diagnosis of cancer. Early tumor detection can substantially improve patient outcomes, decrease healthcare costs, and reduce time to better target a treatment. Overall, it could help streamline workflows in hospitals and clinics, lower healthcare costs, and accelerate treatment planning.
+
